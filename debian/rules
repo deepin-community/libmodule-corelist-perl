@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+CURRENT_PERL := $(shell perl -e 'print $$]')
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	dh_auto_build
+
+	# safeguard against a Module::CoreList version which doesn't know about the current Perl
+	@echo Checking support for Perl $(CURRENT_PERL)
+	@perl -Iblib/lib -MModule::CoreList -E '$$date=$$Module::CoreList::released{"$(CURRENT_PERL)"} or say "Perl $(CURRENT_PERL) not supported by version $$Module::CoreList::VERSION of Module::CoreList"; exit !$$date;'
