@@ -1,3 +1,150 @@
+libmodule-corelist-perl (5.20231129-1) unstable; urgency=medium
+
+  * New upstream version 5.20231129
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 03 Dec 2023 10:54:49 +0100
+
+libmodule-corelist-perl (5.20231120-1) unstable; urgency=medium
+
+  * New upstream version 5.20231120
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 21 Nov 2023 07:08:39 +0100
+
+libmodule-corelist-perl (5.20230920-1) unstable; urgency=medium
+
+  * New upstream version 5.20230920
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 21 Sep 2023 22:26:01 +0200
+
+libmodule-corelist-perl (5.20230820-1) unstable; urgency=medium
+
+  * New upstream version 5.20230820
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 21 Aug 2023 22:21:27 +0200
+
+libmodule-corelist-perl (5.20230720-1) unstable; urgency=medium
+
+  * New upstream version 5.20230720
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 21 Jul 2023 22:30:45 +0200
+
+libmodule-corelist-perl (5.20230423-1) unstable; urgency=medium
+
+  * Import upstream version 5.20230423.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 11 Jun 2023 21:27:32 +0200
+
+libmodule-corelist-perl (5.20230220-1) unstable; urgency=medium
+
+  * New upstream version 5.20230220
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 21 Feb 2023 17:29:27 +0100
+
+libmodule-corelist-perl (5.20230120-1) unstable; urgency=medium
+
+  * New upstream version 5.20230120
+  * Update copyright years for debian/* packaging files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 22 Jan 2023 10:35:05 +0100
+
+libmodule-corelist-perl (5.20221220-1) unstable; urgency=medium
+
+  * New upstream version 5.20221220
+  * Declare compliance with Debian policy 4.6.2
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 21 Dec 2022 21:09:15 +0100
+
+libmodule-corelist-perl (5.20221120-1) unstable; urgency=medium
+
+  * New upstream version 5.20221120
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 21 Nov 2022 07:00:01 +0100
+
+libmodule-corelist-perl (5.20221020-1) unstable; urgency=medium
+
+  * New upstream version 5.20221020
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 29 Oct 2022 21:14:49 +0200
+
+libmodule-corelist-perl (5.20220920-1) unstable; urgency=medium
+
+  * New upstream version 5.20220920
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 21 Sep 2022 21:26:43 +0200
+
+libmodule-corelist-perl (5.20220820-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Revert "Set upstream metadata fields: Bug-Submit, Repository,
+    Repository-Browse."
+    The repo data point to perl5.git, which we don't want as an upstream repo
+    just for this module.
+  * Add a lintian override for upstream-metadata-missing-repository to
+    keep lintian-brush from adding it back.
+
+  [ Salvatore Bonaccorso ]
+  * New upstream version 5.20220820
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 21 Aug 2022 22:46:34 +0200
+
+libmodule-corelist-perl (5.20220720-1) unstable; urgency=medium
+
+  * New upstream version 5.20220720
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 01 Aug 2022 10:43:40 +0200
+
+libmodule-corelist-perl (5.20220620-1) unstable; urgency=medium
+
+  * New upstream version 5.20220620
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 20 Jun 2022 21:46:08 +0200
+
+libmodule-corelist-perl (5.20220527-1) unstable; urgency=medium
+
+  * New upstream version 5.20220527
+  * Declare compliance with Debian Policy 4.6.1.
+  * Set upstream metadata fields: Bug-Submit, Repository, Repository-Browse.
+    Changes-By: lintian-brush
+
+ -- Damyan Ivanov <dmn@debian.org>  Sat, 28 May 2022 20:49:09 +0000
+
+libmodule-corelist-perl (5.20220420-1) unstable; urgency=medium
+
+  * New upstream version 5.20220420
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 21 Apr 2022 07:41:10 +0200
+
+libmodule-corelist-perl (5.20220320-1) unstable; urgency=medium
+
+  * New upstream version 5.20220320
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 21 Mar 2022 22:52:21 +0100
+
+libmodule-corelist-perl (5.20220220-1) unstable; urgency=medium
+
+  * New upstream version 5.20220220
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 03 Mar 2022 22:19:44 +0100
+
+libmodule-corelist-perl (5.20220120-1) unstable; urgency=medium
+
+  * New upstream version 5.20220120
+  * Update copyright years for debian/* packaging files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 21 Jan 2022 06:52:27 +0100
+
+libmodule-corelist-perl (5.20211220-1) unstable; urgency=medium
+
+  * New upstream version 5.20211220
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 22 Dec 2021 07:18:55 +0100
+
+libmodule-corelist-perl (5.20211120-1) unstable; urgency=medium
+
+  * New upstream version 5.20211120
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 21 Nov 2021 11:17:33 +0100
+
 libmodule-corelist-perl (5.20211020-1) unstable; urgency=medium
 
   * New upstream version 5.20211020
