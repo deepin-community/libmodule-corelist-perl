@@ -1,0 +1,2 @@
+# we don't want perl5.git as the upstream git repo for this module
+libmodule-corelist-perl source: upstream-metadata-missing-repository [debian/upstream/metadata]
