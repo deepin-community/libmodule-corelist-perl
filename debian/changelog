@@ -1,3 +1,16 @@
+libmodule-corelist-perl (5.20240129-1) unstable; urgency=medium
+
+  * New upstream version 5.20240129
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 07 Feb 2024 06:05:18 +0100
+
+libmodule-corelist-perl (5.20231230-1) unstable; urgency=medium
+
+  * New upstream version 5.20231230
+  * Update copyright years for debian/* packaging files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 03 Jan 2024 21:11:20 +0100
+
 libmodule-corelist-perl (5.20231129-1) unstable; urgency=medium
 
   * New upstream version 5.20231129
